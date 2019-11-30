@@ -41,4 +41,11 @@ describe('Jogo | Unit', () => {
       expect(resultado.acertou).to.be.true
     })
   })
+
+
+
+
+
+
+  
 })

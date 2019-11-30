@@ -1,5 +1,7 @@
 function jogo(numeroGerado, resposta){
-
+    if (Number.isNaN(numeroFormatado)) {
+        return { mensagemErro: 'Não é um número válido' }
+      }
     if (numeroGerado > resposta){
         return  resultado = {
             "acertou": false,
