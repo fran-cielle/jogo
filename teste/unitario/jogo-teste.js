@@ -30,6 +30,19 @@ describe('Jogo | Unit', () => {
     })
   })
 
+  context('quando o digito não for um número', () =>{
+    it('retorna a mensagem "Não é um número válido"', () =>{
+        const numeroGerado = 23
+        const resposta = "erro"
+
+        const resultado = jogo(numeroGerado,resposta)
+
+        expect(resultado).to.be.an('object')
+        expect(resultado.mensagemErro).to.be.equal('Não é um número válido')
+    })
+})
+
+
   context('quando o número gerado for igual ao número inserido', () => {
     it('retorna um objeto com a chave acertou como "true"', () => {
       const numeroGerado = 40
@@ -41,11 +54,4 @@ describe('Jogo | Unit', () => {
       expect(resultado.acertou).to.be.true
     })
   })
-
-
-
-
-
-
-  
 })

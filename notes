@@ -12,5 +12,6 @@ não posso colocar expect de um mesmo contexto com outro resultado
 
 Bibliotecas:
 
-mocha - npm install mocha --save-dev (na dependencia só no ambiente de desenvolvimento) 
+mocha - npm install mocha --save-dev (na dependencia só no ambiente de desenvolvimento)
+npm install -g mocha -> para rodar o mocha global 
 chai - 
