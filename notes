@@ -1,0 +1,15 @@
+Um teste deve responder essas três perguntas:
+
+Qual o objetivo?
+Qual o contexto?
+O que estamos testando
+
+camelCase
+PascalCase
+
+
+
+Bibliotecas:
+
+mocha - npm install mocha --save-dev (na dependencia só no ambiente de desenvolvimento) 
+chai - 
